@@ -1,0 +1,17 @@
+name: Build LaTeX
+on: [push, workflow_dispatch]
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out current git repository
+        uses: actions/checkout@v2
+      - name: Compile LaTeX documents
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: article.tex
+      - name: Upload compiled article
+        uses: actions/upload-artifact@v2
+        with:
+          name: article.pdf
+          path: article.pdf
