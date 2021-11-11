@@ -6,7 +6,9 @@
 *.log
 *.lot
 *.out
-*.pdf
 *.gz
 *.bbl
 *.blg
+
+article.pdf
+
