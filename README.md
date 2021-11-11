@@ -1,4 +1,4 @@
-![Build LaTeX](https://github.com/shiruken/improved-fluid-phantom-for-accurate-relative-flow-calculations-for-speckle-contrast-imaging/workflows/Build%20LaTeX/badge.svg?branch=master)
+[![Build LaTeX](https://github.com/shiruken/improved-fluid-phantom-for-accurate-relative-flow-calculations-for-speckle-contrast-imaging/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/shiruken/improved-fluid-phantom-for-accurate-relative-flow-calculations-for-speckle-contrast-imaging/actions/workflows/main.yml)
 
 # Improved fluid phantom for accurate relative flow calculations for speckle contrast imaging
 
