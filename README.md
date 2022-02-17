@@ -1,4 +1,4 @@
-[![Build LaTeX](https://github.com/shiruken/improved-fluid-phantom-for-accurate-relative-flow-calculations-for-speckle-contrast-imaging/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/shiruken/improved-fluid-phantom-for-accurate-relative-flow-calculations-for-speckle-contrast-imaging/actions/workflows/main.yml)
+[![Build LaTeX](https://github.com/shiruken/using-pressure-driven-flow-systems-to-evaluate-laser-speckle-contrast-imaging/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/shiruken/using-pressure-driven-flow-systems-to-evaluate-laser-speckle-contrast-imaging/actions/workflows/main.yml)
 
 # Using pressure-driven flow systems to evaluate laser speckle contrast imaging
 
