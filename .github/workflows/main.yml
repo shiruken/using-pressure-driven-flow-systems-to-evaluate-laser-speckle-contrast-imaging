@@ -9,13 +9,14 @@ jobs:
         with:
           fetch-depth: 2
       - name: Compile LaTeX document
-        uses: tawalaya/latex-diff-action@v1
+        uses: shiruken/latex-diff-action@v1
         with:
           root_file: article.tex
           compile_diff: true
       - name: Upload compiled article
         uses: actions/upload-artifact@v3
         with:
+          name: compiled
           path: |
             article.pdf
             diff.pdf
