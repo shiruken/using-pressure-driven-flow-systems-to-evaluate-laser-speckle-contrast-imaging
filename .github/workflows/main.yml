@@ -6,12 +6,14 @@ jobs:
     steps:
       - name: Check out current git repository
         uses: actions/checkout@v2
-      - name: Compile LaTeX documents
-        uses: xu-cheng/latex-action@v2
+      - name: Compile LaTeX document
+        uses: tawalaya/latex-diff-action@v1
         with:
           root_file: article.tex
+          compile_diff: true
       - name: Upload compiled article
         uses: actions/upload-artifact@v2
         with:
-          name: article.pdf
-          path: article.pdf
+          path: |
+            article.pdf
+            diff.pdf
