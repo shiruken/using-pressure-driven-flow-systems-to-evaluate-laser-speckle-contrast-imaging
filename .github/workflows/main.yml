@@ -1,5 +1,5 @@
 name: Build LaTeX
-on: [push, workflow_dispatch]
+on: [push]
 jobs:
   build_latex:
     runs-on: ubuntu-latest
@@ -10,10 +10,7 @@ jobs:
         uses: tawalaya/latex-diff-action@v1
         with:
           root_file: article.tex
-          compile_diff: true
       - name: Upload compiled article
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
-          path: |
-            article.pdf
-            diff.pdf
+          path: article.pdf
