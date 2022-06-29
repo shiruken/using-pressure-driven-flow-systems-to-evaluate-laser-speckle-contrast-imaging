@@ -6,11 +6,16 @@ jobs:
     steps:
       - name: Check out current git repository
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
       - name: Compile LaTeX document
         uses: tawalaya/latex-diff-action@v1
         with:
           root_file: article.tex
+          compile_diff: true
       - name: Upload compiled article
         uses: actions/upload-artifact@v3
         with:
-          path: article.pdf
+          path: |
+            article.pdf
+            diff.pdf
