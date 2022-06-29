@@ -16,7 +16,7 @@ jobs:
       - name: Upload compiled article
         uses: actions/upload-artifact@v3
         with:
-          name: compiled
+          name: article
           path: |
             article.pdf
             diff.pdf
