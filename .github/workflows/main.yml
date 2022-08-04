@@ -11,12 +11,16 @@ jobs:
       - name: Compile LaTeX document
         uses: shiruken/latex-diff-action@v1
         with:
-          root_file: article.tex
+          root_file: |
+            article.tex
+            supplement.tex
           compile_diff: true
       - name: Upload compiled article
         uses: actions/upload-artifact@v3
         with:
-          name: article
+          name: files
           path: |
             article.pdf
             diff.pdf
+            supplement.pdf
+            
