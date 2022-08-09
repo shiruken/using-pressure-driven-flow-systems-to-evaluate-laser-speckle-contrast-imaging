@@ -8,15 +8,28 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 2
-      - name: Compile LaTeX document
+      - name: Compile Main Document
         uses: shiruken/latex-diff-action@v1
         with:
           root_file: article.tex
           compile_diff: true
-      - name: Upload compiled article
+      - name: Upload Compiled Main Document
         uses: actions/upload-artifact@v3
         with:
-          name: files
+          name: main
           path: |
             article.pdf
             diff.pdf
+      - name: Compile Supplementary Document
+        uses: shiruken/latex-diff-action@v1
+        with:
+          root_file: supplement.tex
+          compile_diff: true
+      - name: Upload Compiled Supplementary Document
+        uses: actions/upload-artifact@v3
+        with:
+          name: supplement
+          path: |
+            supplement.pdf
+            diff.pdf
+            
