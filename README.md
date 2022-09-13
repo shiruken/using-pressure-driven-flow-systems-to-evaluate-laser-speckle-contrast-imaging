@@ -2,6 +2,10 @@
 
 # Using pressure-driven flow systems to evaluate laser speckle contrast imaging
 
-[LaTeX](https://www.latex-project.org/) source code for my paper comparing syringe pump and pressure-regulated microfluidic flow systems and their impact on assessing multi-exposure speckle imaging (MESI) flow measurements. This work was conducted during my postdoc at the University of Texas at Austin in the [Functional Optical Imaging Laboratory](https://foil.bme.utexas.edu/) ([@UTFOIL](https://github.com/utfoil)).
+[LaTeX](https://www.latex-project.org/) source code for my paper submitted to the [Journal of Biomedical Optics](https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics) comparing syringe pump and pressure-regulated microfluidic flow systems and their impact on assessing laser speckle contrast imaging (LSCI) flow measurements. This work was conducted during my postdoc at the University of Texas at Austin in the [Functional Optical Imaging Laboratory](https://foil.bme.utexas.edu/) ([@UTFOIL](https://github.com/utfoil)).
 
-_© 2021 Colin T. Sullender, Adam Santorelli, Christopher Smith, Lisa M. Richards, and Andrew K. Dunn_
+## Revision History
+
+* 2022-09-13: Submitted to _Journal of Biomedical Optics_ ([Manuscript v1.0](https://github.com/shiruken/using-pressure-driven-flow-systems-to-evaluate-laser-speckle-contrast-imaging/releases/tag/v1.0))
+
+_© 2022 Colin T. Sullender, Adam Santorelli, Lisa M. Richards, Pawan K. Mannava, Christopher Smith, and Andrew K. Dunn_
